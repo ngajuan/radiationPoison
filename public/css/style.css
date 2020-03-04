@@ -1,0 +1,131 @@
+.video_wrapper {
+  text-align:center;
+  width:100%;
+}
+
+.game_over {
+    font-size: 500%;
+}
+
+h2 {
+    font-size:99%;
+    font-family: 'Special Elite', cursive;
+}
+
+.button {
+    background-color: #b2130a;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: crosshair;
+    font-family: 'Special Elite', cursive;
+    position: relative;
+    transition: .5s ease;
+    top: 191px;
+    left: 0px;
+    right: -420px;
+    bottom: -191px;
+    width: 94%;
+    
+}
+
+.buttonChoice {width: 50%;}
+.button3 {
+    width: 94%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative
+}
+
+.video {
+    margin: 0 auto;
+}
+
+.banner {
+    background-color: #b2130a;
+    border: none;
+    color: white;
+    padding: 20px 37px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: initial;
+    font-family: 'Special Elite', cursive;
+    position:relative;
+    width: 94%;
+}
+
+.question {
+    color: white;
+    font-family: 'Special Elite', cursive;
+    position: relative;
+    text-align: center;
+}
+.explain {
+    color: white;
+    font-family: 'Special Elite', cursive;
+    position: relative;
+    text-align: center;
+    
+}
+
+.weapon {
+    border: #b2130a;
+    border-style: solid;
+    border-width: 5px;
+    height:150px;
+    width:150px;
+    cursor: crosshair;
+}
+
+#sword {
+   position:fixed;
+   bottom:150px;
+   left:50px;
+}
+
+
+#gunsword {
+    position: fixed;
+    bottom:150px;
+    left:1100px;
+}
+
+#bow_and_arrow {
+    position: fixed;
+    bottom: 150px;
+    left: 575px;
+}
+
+
+.typewriter {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  25% { border-color: white; }
+}
+
